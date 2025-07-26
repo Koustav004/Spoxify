@@ -1,5 +1,5 @@
 import About from "./Components/About";
-// import Footer from "./Components/Footer";
+import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 
@@ -9,8 +9,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      {/* <Projects /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -1,26 +1,23 @@
 import React from "react";
-// import AboutImg from "../../assets/7358653-removebg-preview.png";
 import { IoArrowForward } from "react-icons/io5";
 const About = () => {
   return (
     <div
       id="About"
-      className="text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-black shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12"
+      className="text-white flex flex-col md:flex-row overflow-hidden items-center justify-center bg-black shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-6 md:p-12"
     >
-      <div>
+      <div className="w-full">
         <h2 className="text-2xl md:text-4xl font-bold">About</h2>
-        <div className="md:flex flex-wrap flex-col md:flex-row items-center">
-          {/* <img className="md:h-80" src={AboutImg} alt="About img" /> */}
+        <div className="flex flex-col md:flex-row items-center">
 
-          <ul>
-            <div className="flex gap-3 py-4">
+            <div className="flex gap-3 py-4 w-full">
               <IoArrowForward size={30} className="mt-1" />
 
-              <span className="w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
+              <span className="w-full md:w-96">
+                <h1 className="text-lg md:text-2xl font-semibold leading-normal">
                   Frontend developer
                 </h1>
-                <p className="text-sm md:text-md leading-tight">
+                <p className="text-xs md:text-md leading-tight">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Maiores explicabo deserunt asperiores quasi, vitae blanditiis
                   perferendis quos consectetur ea harum! Libero aut qui
@@ -29,34 +26,6 @@ const About = () => {
                 </p>
               </span>
             </div>
-            <div className="flex gap-3 py-4">
-              <IoArrowForward size={30} className="mt-1" />
-
-              <span className="w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Database developer
-                </h1>
-                <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores
-                </p>
-              </span>
-            </div>
-            <div className="flex gap-3 py-4">
-              <IoArrowForward size={30} className="mt-1" />
-
-              <span className="w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Backend developer
-                </h1>
-                <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis
-                </p>
-              </span>
-            </div>
-          </ul>
         </div>
       </div>
     </div>
