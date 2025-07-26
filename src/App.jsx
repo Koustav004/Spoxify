@@ -1,12 +1,18 @@
-import React from 'react'
-import Header from './components/Header';
-
+import About from "./Components/About";
+// import Footer from "./Components/Footer";
+import Home from "./Components/Home";
+import Navbar from "./Components/Navbar";
 
 function App() {
-
   return (
-    <Header />
+    <div className="bg-[#171d32] h-auto w-full overflow-hidden">
+      <Navbar />
+      <Home />
+      <About />
+      {/* <Projects /> */}
+      {/* <Footer /> */}
+    </div>
   );
 }
 
-export default App
+export default App;
