@@ -8,10 +8,20 @@ const Home = () => {
         <h1 className="text-2xl md:text-6xl font-bold flex leading-normal tracking-tighter">
           <img className="w-32 md:w-64" src={LOGO} alt="" />
           <div className="ml-4 md:ml-8 flex items-baseline-last justify-end">
-            <a href="#About"><button className="mt-10 md:mt-20 text-white py-2 px-20 text-base md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+            <div>
+            <a href="#About">
+              <button className="mt-10 md:mt-20 text-white py-2 px-20 text-base md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
               Go to Spoxify
             </button>
             </a>
+            </div>
+            <div>
+            <a href="#About">
+              <button className="mt-10 md:mt-20 text-white py-2 px-20 text-base md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+              Download Spoxify(comming soon)
+            </button>
+            </a>
+            </div>
           </div>
         </h1>
       </div>
