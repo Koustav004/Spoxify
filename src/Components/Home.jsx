@@ -10,12 +10,12 @@ const Home = () => {
           <div className="ml-4 md:ml-8 flex items-baseline-last justify-end">
             <div>
             <a href="#About">
-              <button className="mt-10 md:mt-20 text-white py-2 px-20 text-base md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+              <button className="mt-10 md:mt-20 text-white py-2 px-10 text-base md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
               Go to Spoxify
             </button>
             </a>
              <a href="#About">
-              <button className="mt-10 md:mt-20 text-white py-2 px-20 text-base md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+              <button className="mt-10 md:mt-20 text-white py-2 px-10 text-base md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
               Download Spoxify(comming soon)
             </button>
             </a>
